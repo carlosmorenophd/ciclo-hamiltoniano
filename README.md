@@ -21,7 +21,7 @@ Cabe destacar que estas condiciones son necesarias o suficientes, lo que signifi
 
 ## Ejecución
 
-![Multistage](asserts/dynamicProgramming.png)
+![Multistage](asserts/hamiltoniano.png)
 
 
 ## Acerca del autor 
@@ -53,7 +53,7 @@ It should be noted that these conditions are either necessary or sufficient, whi
 
 ## Ejecución
 
-![Multistage](asserts/branchAndBound.png)
+![Multistage](asserts/hamiltoniano.png)
 
 ## About the author
 Student of PhD: Juan Carlos Moreno Sanchez
