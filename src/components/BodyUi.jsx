@@ -55,7 +55,7 @@ const BodyUi = (props) => {
         </Button>
       </Box>
       <Box sx={{ mt: 2 }}>
-        <ListResult data={result} title={`Multistage result: `} columns={["cost", "path"]} />
+        <ListResult data={result} title={`Hamiltonian cycle`} columns={["result", "path"]} />
       </Box>
       <Snackbar open={alert} autoHideDuration={6000} onClose={handleAlertClose}>
         <Alert

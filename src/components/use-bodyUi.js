@@ -89,7 +89,8 @@ const useBodyUi = ({ init }) => {
   const handleResult = () => {
       const hamiltonianCycleResult = hamiltonianCycle(data);
       console.log(hamiltonianCycleResult);
-
+      const message = hamiltonianCycleResult.success ? "Path found" : "Path not found";
+      setResult([message, hamiltonianCycleResult.path.join('->')])
   };
   return {
     alert,
