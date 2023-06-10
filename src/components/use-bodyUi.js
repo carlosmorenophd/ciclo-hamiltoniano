@@ -88,7 +88,6 @@ const useBodyUi = ({ init }) => {
   //Functionality when user click en basic button
   const handleResult = () => {
       const hamiltonianCycleResult = hamiltonianCycle(data);
-      console.log(hamiltonianCycleResult);
       const message = hamiltonianCycleResult.success ? "Path found" : "Path not found";
       setResult([message, hamiltonianCycleResult.path.join('->')])
   };
